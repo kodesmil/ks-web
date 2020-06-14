@@ -5,6 +5,8 @@ import 'firebase/auth';
 import firebaseConfig from './firebaseConfig';
 import logo from './logo.svg';
 import './App.css';
+import './generated/proto/github.com/kodesmil/ks-model/feed_grpc_web_pb'
+import './generated/proto/github.com/kodesmil/ks-model/feed_pb'
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
